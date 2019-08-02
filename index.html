@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>TranslateUI - Easy to localize</title>
+</head>
+<body>
+    <div class="translate">test1</div>
+
+    <div class="translate">test2</div>
+
+    <div class="translate">test3</div>
+
+    <div class="custom">test4</div>
+
+    <!-- includes jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
+
+    <!-- TranslateUI -->
+    <script src="./javascripts/TranslateUI.js?v1"></script>
+    <script>
+        //V1 execute
+        //TranslateUI_v1.find("ru", ".custom");
+
+        //V2 execute
+        // $(document).ready(async function(){
+        //     await new TranslateUI_v2().find("lv", ".custom");
+        // });
+
+        //V3 execute
+        // find("bg", ".custom");
+    </script>
+</body>
+</html>
